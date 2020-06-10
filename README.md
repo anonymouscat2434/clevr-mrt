@@ -18,7 +18,7 @@ In total, the training + validation split consists of 45,600 scenes, each contai
 - Test set: https://mega.nz/file/QOhzkJCb#4QVNbmdmcPbfyCrN-O_xQ-xnb-U_g1tR-7aLAbqOPgE
 - Metadata (H5 files): https://mega.nz/file/hehFBZrQ#3HJoGiCt51ApORQHtcJTvgc5ynZvqKApfOyAqxHFBHY
 
-Please see the IPython notebook in `data/` for an example exploration of the dataset, including an example PyTorch Dataset class.
+Please see the IPython notebook in `data/` for an example exploration of the dataset, including an example PyTorch Dataset class. [You can view it with nbviewer here](https://nbviewer.jupyter.org/github/anonymouscat2434/neurips2020_9084/blob/master/data/exploring_dataset.ipynb).
 
 ## Code
 
