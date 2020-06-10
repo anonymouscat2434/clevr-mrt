@@ -24,6 +24,7 @@ Please see the IPython notebook in `data/` for an example exploration of the dat
 
 Code is provided in `code/`, though some files had to be ommitted due to internal library calls which can break anonymity (mainly, the files used to launch experiments directly). The full code will be provided post-rebuttal.
 
-This repository sources some code from the following repos:
+The code may include modules from the following repos:
 - https://github.com/ethanjperez/film
 - https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+- https://github.com/christiancosgrove/pytorch-spectral-normalization-gan
