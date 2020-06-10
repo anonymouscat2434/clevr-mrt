@@ -16,5 +16,6 @@ In total, the training + validation split consists of 45,600 scenes, each contai
 
 - Training + validation set: https://mega.nz/file/lCphQRzB#-9uIvp09o6IpASXYH5Ve0zy8JceJmnPBlorO3nAGgHc
 - Test set: https://mega.nz/file/QOhzkJCb#4QVNbmdmcPbfyCrN-O_xQ-xnb-U_g1tR-7aLAbqOPgE
+- Metadata (H5 files): https://mega.nz/file/EO4RwJyb#0-7nd9vAKREynMlBlGxcFhre4hjALdkMSGyvtKnY4S4
 
 Please see the IPython notebook in `data/` for an example exploration of the dataset, including an example PyTorch Dataset class.
