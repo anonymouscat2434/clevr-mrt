@@ -19,3 +19,7 @@ In total, the training + validation split consists of 45,600 scenes, each contai
 - Metadata (H5 files): https://mega.nz/file/EO4RwJyb#0-7nd9vAKREynMlBlGxcFhre4hjALdkMSGyvtKnY4S4
 
 Please see the IPython notebook in `data/` for an example exploration of the dataset, including an example PyTorch Dataset class.
+
+## Code
+
+Code is provided in `code/`, though this is mainly for illustrative purposes -- some files had to be ommitted due to internal library calls which can break anonymity (mainly, the files used to launch experiments directly). The full code will be provided post-rebuttal.
