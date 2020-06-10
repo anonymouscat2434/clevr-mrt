@@ -1,5 +1,9 @@
 # neurips2020_9081
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/anonymouscat2434/neurips2020_9084/master/ck_overall.png" width=600 />
+</p>
+
 This anonymised repository contains both the code and dataset used for the submission.
 
 _Clevr-Kiwi_ generates 20 images for each scene holding a constant altitude and sampling over azimuthal angle. To ensure that the model would not have any clues as to how the view had been rotated, we replaced the asymmetrical "photo backdrop" canvas of the Clevr dataset with a large plane and centered overhead lighting. 
