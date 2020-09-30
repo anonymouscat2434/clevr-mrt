@@ -1,4 +1,4 @@
-# neurips2020_9081
+# Clevr-MRT
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/anonymouscat2434/neurips2020_9084/master/ck_overall.png" width=600 />
@@ -6,7 +6,7 @@
 
 This anonymised repository contains both the code and dataset used for the submission.
 
-_Clevr-Kiwi_ generates 20 images for each scene holding a constant altitude and sampling over azimuthal angle. To ensure that the model would not have any clues as to how the view had been rotated, we replaced the asymmetrical "photo backdrop" canvas of the Clevr dataset with a large plane and centered overhead lighting. 
+_Clevr-MRT_ generates 20 images for each scene holding a constant altitude and sampling over azimuthal angle. To ensure that the model would not have any clues as to how the view had been rotated, we replaced the asymmetrical "photo backdrop" canvas of the Clevr dataset with a large plane and centered overhead lighting. 
 
 To focus on questions with viewpoint dependent answers, we filtered the set of questions to only include those containing spatial relationships (e.g. _is X to the right of Y?_). From the original 90 question templates, only 44 contained spatial relationships. For each spatial question template, we instantiated questions based on the canonical viewpoint of the scene. To create training and validation samples, we combined these questions with rotated and canonical images. 
 
@@ -18,7 +18,9 @@ In total, the training + validation split consists of 45,600 scenes, each contai
 - Test set: https://mega.nz/file/QOhzkJCb#4QVNbmdmcPbfyCrN-O_xQ-xnb-U_g1tR-7aLAbqOPgE
 - Metadata (H5 files): https://mega.nz/file/hehFBZrQ#3HJoGiCt51ApORQHtcJTvgc5ynZvqKApfOyAqxHFBHY
 
-Please see the IPython notebook in `data/` for an example exploration of the dataset, including an example PyTorch Dataset class. [You can view it with nbviewer here](https://nbviewer.jupyter.org/github/anonymouscat2434/neurips2020_9084/blob/master/data/exploring_dataset.ipynb).
+Please see the IPython notebook in `data/` for an example exploration of the dataset, including an example PyTorch Dataset class. [You can view it with nbviewer here](https://nbviewer.jupyter.org/github/anonymouscat2434/clevr-mrt/blob/master/data/exploring_dataset.ipynb).
+
+**(Note: this dataset was formerly called Clevr-Kiwi, and traces of this name may still exist in files. However, its official name now is CLEVR-MRT.)**
 
 ## Code
 
